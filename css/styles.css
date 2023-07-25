@@ -29,7 +29,8 @@ body{
 .gallery{
     background-color: yellow;
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .gallery img{
