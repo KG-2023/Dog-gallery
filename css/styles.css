@@ -44,6 +44,13 @@ body{
     
 }
 
+.gallery::after{
+    content: "";
+    width: 350px;
+    /* background-color: green; */
+    height: 350px;
+}
+
 /* FLEX-ITEMS */
 .gallery img{
     background-color: orange;
