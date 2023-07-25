@@ -29,8 +29,11 @@ body{
 .gallery{
     background-color: yellow;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    /* flex-direction: row;
+    flex-wrap: wrap; */
+    flex-flow: row wrap;
+    justify-content:center;
+    align-items: stretch;
 }
 
 .gallery img{
